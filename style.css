@@ -1,0 +1,271 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    color: #111;
+    background-color: #ffe27d;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.top-bar {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 5%;
+    background-color: #ffe27d;
+    gap: 15px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    white-space: nowrap;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+}
+
+.home {
+    height: 650px;
+    background-color: #ffe27d;
+    background-repeat: no-repeat;
+    background-size: auto 85%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home-content {
+    width: 100%;
+    position: relative;
+}
+
+.small-heading {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.home h1 {
+    font-family: Arial, sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: 8px;
+    color: white;
+    margin: 15px 0 25px;
+}
+
+.outline-button {
+    display: inline-block;
+    padding: 10px 35px;
+    border: 2px solid white;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.outline-button:hover {
+    background-color: white;
+    color: #111;
+}
+
+.flavors {
+    display: flex;
+    min-height: 450px;
+    background-color: white;
+}
+
+.flavors-text {
+    width: 50%;
+    padding: 70px 8%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flavors-text h2 {
+    font-size: 36px;
+}
+
+.script {
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    margin: 10px 0 30px;
+}
+
+.description {
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.dark-button {
+    display: inline-block;
+    border: 2px solid #111;
+    padding: 10px 35px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.dark-button:hover {
+    background-color: #111;
+    color: white;
+}
+
+.flavors-image {
+    width: 50%;
+    min-height: 450px;
+    background-position: center;
+    background-size: cover;
+}
+
+.dairy-free {
+    min-height: 650px;
+    background-color: #b9e8d9;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding: 60px 20px;
+}
+
+.dairy-content {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.dairy-content .small-heading {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+.dairy-content h2 {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: clamp(42px, 8vw, 110px);
+    font-weight: 900;
+    letter-spacing: 8px;
+    line-height: 1.1;
+    margin: 20px 0 35px;
+}
+
+.dairy-content .outline-button {
+    border: 2px solid white;
+    color: white;
+    padding: 12px 40px;
+}
+
+.about {
+    display: flex;
+    background-color: white;
+    min-height: 450px;
+}
+
+.about-image {
+    width: 50%;
+    min-height: 450px;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-text {
+    width: 50%;
+    padding: 80px 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-text h2 {
+    font-size: 36px;
+}
+
+.about-text > p:last-child {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.contact {
+    background-color: #b9e8d9;
+    padding: 90px 10%;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 40px;
+}
+
+.contact-info {
+    margin: 25px auto;
+    line-height: 2.5;
+}
+
+.contact-info h3 {
+    font-size: 24px;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 13px;
+}
+
